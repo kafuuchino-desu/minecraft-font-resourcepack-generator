@@ -47,12 +47,12 @@ def createpack(fontpath):
   if i == '':
     i = '0'
   packdict = packdict.replace('!SHIFT2', i)
-  print('input size, default 11/输入横向偏移量, 不输入默认为11: ', end='')
+  print('input size, default 11/输入字母大小, 不输入默认为11: ', end='')
   i = input()
   if i == '':
     i = '11'
   packdict = packdict.replace('!SIZE', i)
-  print('input oversample, default 2/输入横向偏移量, 不输入默认为0: ', end='')
+  print('input oversample, default 2/输入解析度, 不输入默认为2: ', end='')
   i = input()
   if i == '':
     i = '2'
