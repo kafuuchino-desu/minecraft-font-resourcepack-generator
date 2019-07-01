@@ -1,0 +1,5 @@
+generated
+*.ttf
+__pycache__
+build
+dist
